@@ -9,3 +9,8 @@
 .navbar{
     float: right !important;
 }
+
+.offcanvas-backdrop{
+    background-color: aquamarine;
+
+}
