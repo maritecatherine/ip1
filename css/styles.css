@@ -6,3 +6,6 @@
     overflow: auto;
     z-index: 1;
 }
+.navbar{
+    float: right !important;
+}
