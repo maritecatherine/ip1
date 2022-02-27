@@ -75,7 +75,7 @@
     </header>
 
      <!-- about section begin -->
-    <div class="about" id="about">
+    <div class="about container-2" id="about">
       <h2>About Me</h2>
       <p>An information technology enthusiast, fast learner who is self-motivated 
         with interest in full stack website development and maintenance, database management, 
@@ -97,8 +97,74 @@
           <li>Data analysis</li>
           <li>Community service</li>
         </ul>
-
     </div>
+    <!--About section ends-->
+    <!--contact me begin-->
+    <div class="mb-4 contact container-2" id="contact">
+      <h2>Contact me</h2>
+     <!--Section description-->
+      <p class="w-responsive">let get in touch. send me a message</p>
+      <div class="row">
+      <!--Grid column-->
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+            <!--Grid row-->
+              <div class="row">
+                  <!--Grid column-->
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <label for="name" class="">Your name</label>
+                          <input type="text" id="name" name="name" class="form-control">                   
+                      </div>
+                  </div>
+              </div> 
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                      <label for="email" class="">Your email</label>
+                      <input type="text" id="email" name="email" class="form-control">
+                      
+                  </div>
+              </div>
+              <!--Grid column-->
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <label for="subject" class="">Subject</label>
+                          <input type="text" id="subject" name="subject" class="form-control">     
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                          <label for="message">Your message</label>
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          
+                      </div>
+                  </div>
+              </div>
+            <!--Grid row-->
+          </form>
+
+          <div class="text-center text-md-left">
+              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+          </div>
+          <div class="status"></div>
+      </div>
+     </div>
+    </div>
+
     
     
   

@@ -32,7 +32,7 @@
     box-sizing: border-box;
     margin-left: 550px;
     width: auto;
-    padding: 128px 16px;
+    padding: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
 .flex{
@@ -48,3 +48,6 @@
 .flex-item img{
     height: 180px;
 }
+.btn-primary{
+    margin-top: 10px;
+} 
