@@ -28,3 +28,8 @@
     font-family: 'font awesome5\ free';
     font-weight: 900;
 }
+.flex{
+    margin: 0 20px;
+    display:flex;
+}
+
