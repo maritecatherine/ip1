@@ -1,0 +1,57 @@
+.sidebar{
+    float: left;
+    height: 100%;
+    width: 40vw;
+    position: fixed;
+    overflow: auto;
+    z-index: 1;
+}
+.navbar{
+    float: right !important;
+}
+
+.offcanvas-backdrop{
+    background-color: aquamarine;
+
+}
+.container-1{
+    text-align: center;
+    font-size: 15px;
+    box-sizing: border-box;
+    display: block;
+    padding: 128px 16px;
+    width: auto;
+    margin-left: 550px;
+}
+.container-1 h1 ::before{
+    content: "";
+    font-family: 'font awesome5\ free';
+    font-weight: 900;
+}
+.container-2{
+    box-sizing: border-box;
+    margin-left: 550px;
+    width: auto;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.flex{
+    margin: 0 20px;
+    display:flex;
+}
+.flex-item{
+    justify-content:space-between;
+    flex-direction: row;
+    text-align: center; 
+
+}
+.flex-item img{
+    height: 180px;
+}
+.btn-primary{
+    margin-top: 10px;
+}
+.footer{
+    background-color: rgb(161, 223, 231);
+    color: black;
+} 
