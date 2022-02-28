@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"/>
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <script src="/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <header id="home">
+      <div class="container-fluid">
+        <div class="sidebar">
+          <img src="/images/mypro.jpeg" alt="profile photo">
+        </div>
+      </div>
+      <nav class="navbar navbar-light">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact me</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container-1">
+        <h1>Catherine Marite</h1>
+        <p>Web Developer and Network Designer</p>
+      </div>
+    
+
+      <div class="container-2">
+        <h2>My Projects</h2>
+        <div class="flex">
+          <div class="flex-item">
+            <img src="/images/dev.jpg" alt="code photo">
+            <h6><strong>Scopelab webpage</strong></h6>
+            <p>The <a href="http://www.scopelab.co.ke/" title="Scopelab" >website</a> displays different laboratory medical products and their availability.
+              <span>It was developed using Wordpress</span></p>
+          </div>    
+          <div class="flex-item">
+            <img src="/images/fuls.jpeg" alt="code image">
+            <h6><strong>Pets webpage</strong></h6>
+            <p>Displays different types of <a href="https://github.com/maritecatherine/pet.git" title="Pet Webpage" >dogs</a> and list their characteristics. Developed using HTML and CSS</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+     <!-- about section begin -->
+    <div class="about container-2" id="about">
+      <h2>About Me</h2>
+      <p>An information technology enthusiast, fast learner who is self-motivated 
+        with interest in full stack website development and maintenance, database management, 
+        networking and  practical knowledge in multiple programming languages.</p>
+
+        <h3>Professional skills</h3>
+        <ul>
+          <li>Solid background and advanced knowledge in software development in Python, 
+            PHP, Java Script, Java, HTML, CSS.</li>
+            <li>Experience in web Content Management Systems Wordpress & Joomla.</li>
+            <li>Skilled in working with database management tools such as MS SQL and MySQL.</li>
+            <li>Highly organized with exceptional commitment to task completion of projects.</li>
+        </ul>
+        <h4>Interests</h4>
+        <ul>
+          <li>Web design</li>
+          <li>Programming</li>
+          <li>Graphic design</li>
+          <li>Data analysis</li>
+          <li>Community service</li>
+        </ul>
+    </div>
+    <!--About section ends-->
+    <!--contact me begin-->
+    <div class="mb-4 contact container-2" id="contact">
+      <h2>Contact me</h2>
+     <!--Section description-->
+      <p class="w-responsive">Let get in touch. Send me a message</p>
+      <div class="row">
+      <!--Grid column-->
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+            <!--Grid row-->
+              <div class="row">
+                  <!--Grid column-->
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <label for="name" class="">Your name</label>
+                          <input type="text" id="name" name="name" class="form-control">                   
+                      </div>
+                  </div>
+              </div> 
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                      <label for="email" class="">Your email</label>
+                      <input type="text" id="email" name="email" class="form-control">
+                      
+                  </div>
+              </div>
+              <!--Grid column-->
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <label for="subject" class="">Subject</label>
+                          <input type="text" id="subject" name="subject" class="form-control">     
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                          <label for="message">Your message</label>
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          
+                      </div>
+                  </div>
+              </div>
+            <!--Grid row-->
+          </form>
+
+          <div class="text-center text-md-left">
+              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+          </div>
+          <div class="status"></div>
+      </div>
+     </div>
+    </div>
+    
+    <footer class="container-1 footer">
+      <div>
+        <a href="https://www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="https://www.twitter.com" ><i class="fab fa-twitter fa-2x"></i></a>
+        <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+        <a href=""><i class="fab fa-pinterest-p fa-2x"></i></a>
+        <a href=""><i class="fab fa-linkedin-in fa-2x"></i></a>
+      </div>
+      <div>
+        &copy;2022
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
