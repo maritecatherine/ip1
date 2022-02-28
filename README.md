@@ -13,6 +13,7 @@ No bugs that am aware of.
 * CSS
 * Bootstrap
 * MDB5
+* javascript
 ## Support and Contact details
 * email: maritecatherine91@gmail.com
 ## Link to webpage
