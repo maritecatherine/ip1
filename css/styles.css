@@ -7,7 +7,7 @@
     z-index: 1;
 }
 body{
-    background-color: #cae2f1;
+    background-color: #f3f7fa;
 }
 a{
     color: rgb(14, 25, 182);
@@ -33,6 +33,9 @@ a{
     padding: 128px 16px;
     width: auto;
     margin-left: 550px;
+}
+h1{
+    color: blue;
 }
 .container-1 h1 ::before{
     content: "";
@@ -66,7 +69,7 @@ h6{
     margin-top: 10px;
 }
 .footer{
-    background-color: rgb(171, 194, 207);
+    background-color: rgb(211, 226, 235);
     color: black;
 } /*
 .copy{
