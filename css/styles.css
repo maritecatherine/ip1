@@ -9,6 +9,9 @@
 body{
     background-color: #cae2f1;
 }
+a{
+    color: mediumorchid;
+}
 .navbar{
     float: right !important;
     background-color: #cae2f1 ;
@@ -60,7 +63,7 @@ body{
     margin-top: 10px;
 }
 .footer{
-    background-color: rgb(161, 223, 231);
+    background-color: rgb(171, 194, 207);
     color: black;
 } 
 .copy{
