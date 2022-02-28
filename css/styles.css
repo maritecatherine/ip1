@@ -57,7 +57,10 @@ a{
 
 }
 .flex-item img{
-    height: 180px;
+    height: 180px;    
+}
+h6{
+    padding-top: 10px;
 }
 .btn-primary{
     margin-top: 10px;
@@ -65,7 +68,7 @@ a{
 .footer{
     background-color: rgb(171, 194, 207);
     color: black;
-} 
+} /*
 .copy{
     float: left;
-}
+}*/
