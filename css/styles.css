@@ -6,12 +6,20 @@
     overflow: auto;
     z-index: 1;
 }
+body{
+    background-color: #cae2f1;
+}
 .navbar{
     float: right !important;
+    background-color: #cae2f1 ;
 }
+.offcanvas-end {
+    width: 200px;
+    background-color: #cae2f1;
 
+}
 .offcanvas-backdrop{
-    background-color: aquamarine;
+    background-color: white;
 
 }
 .container-1{
